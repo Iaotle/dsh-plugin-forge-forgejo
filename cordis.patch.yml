@@ -1,0 +1,8 @@
+# Mounts the provider. It stays disabled until you list your hosts: copy this row into your
+# profile's cordis.patch.yml, remove `disabled`, and set `config.hosts`.
+- insert:
+    - id: forge-forgejo
+      name: dsh-plugin-forge-forgejo
+      disabled: true
+      config:
+        hosts: []
