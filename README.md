@@ -124,6 +124,12 @@ None. Provider output reaches only host-side watchers.
 - **Rate limits** — every poll costs about eight requests per pull request plus one per review with comments and per closing issue.
 
 <a id="dev-note"></a>
+## Contributing
+
+Anyone is welcome to contribute: open an issue, start a discussion, or send a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+See also [@dungsil/dsh-plugin-forge-forgejo](https://www.npmjs.com/package/@dungsil/dsh-plugin-forge-forgejo), another Forgejo provider for DSH, which works through the `tea` CLI.
+
 ### Dev Note
 
 <details>
